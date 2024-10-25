@@ -1,0 +1,26 @@
+.global-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-form {
+  width: 380px;
+  padding: 20px;
+}
+input[type="email"],
+input[type="password"] {
+  background: rgb(173, 172, 172);
+}
+.row {
+  padding: 90px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

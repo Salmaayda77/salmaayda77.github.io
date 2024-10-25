@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-image: url(img/awan.png); background-size: cover;">
+
+    <nav
+    class="navbar navbar-expand-lg"
+    style="background-color: rgb(248, 115, 159)"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Salmaaydaaaa</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse fw-bold"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">Kontak</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Daftar</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container-form">
+      <table>
+        <form>
+          <div class="container text-center">
+            <div class="row bg-light p-3 mt-3" style="border-radius: 40px;">
+              <div class="col-sm-6 ">
+                <div class="d-flex flex-column justify-content-center mt-3">
+                  <label for="nama-depan">Nama depan</label>
+                  <input type="text" name="nama-depan" style="border-radius: 10px;" />
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="alamat">Alamat</label>
+                    <textarea type="text" name="alamat" style="border-radius: 10px;"> </textarea>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-1">
+                  <br>  
+                  <label for="no-hp">No.HP</label>
+                    <input type="number" name="no-hp" style="border-radius: 10px;"/>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="pekerjaan">Pekerjaan</label>
+                    <p>---silahkan pilih---</p>
+                    <select name="pekerjaan"style="border-radius: 10px;">
+                      <option value="Swasta">Swasta</option>
+                      <option value="PNS">PNS</option>
+                      <option value="TNI">TNI</option>
+                      <option value="Polri">Polri</option>
+                      <option value="Dokter">Dokter</option>
+                      <option value="Programmer">Programmer</option>
+                      <option value="DPR">DPR</option>
+                      <option value="Guru">Guru</option>
+                      <option value="Dosen">Dosen</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="nik-ktp">NIK / No.KTP</label>
+                    <input type="number" name="nik-ktp" style="border-radius: 10px;"/>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="url-website">Url Website</label>
+                    <input type="url" name="url-website" style="border-radius: 10px;"/>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="url-tiktok">Url Tiktok</label>
+                    <input type="url" name="url-tiktok" style="border-radius: 10px;"/>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="nama-ayah">Nama Ayah</label>
+                    <input type="text" name="nama-ayah" style="border-radius: 10px;"/>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="alamat-ibu">Alamat Ayah</label>
+                    <textarea type="text" name="alamat-ayah" style="border-radius: 10px;"></textarea>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="nik-ayah">NIK Ayah</label>
+                     <input type="number" name="nik-ayah" style="border-radius: 10px;"/>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="pekerjaan-ayah">Pekerjaan Ayah</label>
+                    <p>---silahkan pilih---</p>
+                    <select name="pekerjaan-ayah" style="border-radius: 10px;">
+                      <option value="Swasta">Swasta</option>
+                      <option value="PNS">PNS</option>
+                      <option value="TNI">TNI</option>
+                      <option value="Polri">Polri</option>
+                      <option value="Dokter">Dokter</option>
+                      <option value="Programmer">Programmer</option>
+                      <option value="DPR">DPR</option>
+                      <option value="Guru">Guru</option>
+                      <option value="Dosen">Dosen</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="no-hp-ayah">No.HP Ayah</label>
+                     <input type="number" name="no-hp-ayah" style="border-radius: 10px;"/>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="d-flex flex-column justify-content-center mt-3">
+                  <label for="nama-belakang">Nama Belakang</label>
+                  <input type="text" name="nama-belakang" style="border-radius: 10px;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" style="border-radius: 10px; background-color: white;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="agama">Agama</label>
+                    <p>---silahkan pilih---</p>
+                    <select name="agama" style="border-radius: 10px;">
+                      <option value="Swasta">Islam</option>
+                      <option value="PNS">Hindu</option>
+                      <option value="TNI">Budha</option>
+                      <option value="Polri">dst</option>
+                    </select>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <br>
+                    <p>Jenis Kelamin</p>
+                    <div class="radio-group">
+                      <input type="radio" name="jk" />
+                      <label for="jk">Laki-laki</label>
+                      <input type="radio" name="jk" />
+                      <label for="jk">Perempuan</label>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-4">
+                    <label for="url-facebook">Url Facebook</label>
+                    <input type="url" name="url-facebook" style="border-radius: 10px;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="url-instagram">Url Instagram</label>
+                    <input type="url" name="url-instagram" style="border-radius: 10px;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="nama-ibu">Nama Ibu</label>
+                    <input type="text" name="nama-ibu" style="border-radius: 10px;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                      <label for="alamat-ibu">Alamat Ibu</label>
+                      <textarea type="text" name="alamat-ibu" style="border-radius: 10px;"></textarea>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                      <label for="nik-ibu">NIK Ibu</label>
+                      <input type="number" name="nik-ibu" style="border-radius: 10px;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="pekerjaan-ibu">Pekerjaan Ibu</label>
+                    <p>---silahkan pilih---</p>
+                    <select name="pekerjaan-ibu" style="border-radius: 10px;">
+                      <option value="Swasta">Swasta</option>
+                      <option value="PNS">PNS</option>
+                      <option value="TNI">TNI</option>
+                      <option value="Polri">Polri</option>
+                      <option value="Dokter">Dokter</option>
+                      <option value="Programmer">Programmer</option>
+                      <option value="DPR">DPR</option>
+                      <option value="Guru">Guru</option>
+                      <option value="Dosen">Dosen</option>
+                    </select>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="no-hp-ibu">No.HP Ibu</label>
+                    <input type="number" name="no-hp-ibu" style="border-radius: 10px;"/>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" style="border-radius: 10px;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" style="border-radius: 10px; background-color: white;"/>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center mt-3">
+                    <label for="Re-password">Re-type Password</label>
+                    <input type="password" name="Re-password" style="border-radius: 10px; background-color: white;"/>
+                  </div>
+                </div>
+               
+              </div>
+              <div class="d-flex flex-column justify-content-center mt-3">
+                <button type="submit" class="btn" style="background-color: rgb(248, 115, 159); width:20%; border-radius: 40px;">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </table>
+    </div>
+
+    <footer
+    style="
+      background-color: rgb(248, 115, 159);
+      text-align: center;
+      height: auto;
+      margin-top: 20px;
+    "
+  >
+    Salma Nurul A'ida 2024
+  </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
